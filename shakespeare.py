@@ -35,7 +35,7 @@ def cmd_insult(data, server, witem):
         irssi.prnt("Not connected to server")
     insult = "thou %s %s %s!" %(random.choice(c1), random.choice(c2), random.choice(c3))
     if data:
-        server.command("MSG %s %s" %(data, insult))
+        server.command("MSG %s %s %s" %(witem.name,data, insult))
     elif isinstance(witem, irssi.Channel) or isinstance(witem, irssi.Query):
         witem.command("MSG %s %s" %(witem.name, insult))
     else:
