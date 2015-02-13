@@ -7,3 +7,5 @@ To install, after nearly shooting yourself in the face during the compiling hell
 
 To use, just do /shakespeare to insult no one in particular (the open query window), or /shakespeare <nick> to insult a specific user in the current channel.
 
+![Image of Yaktocat]
+(https://raw.githubusercontent.com/0x27/irssi-shakespeare-insult/master/screenshot.png)
